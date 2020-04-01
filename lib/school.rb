@@ -16,6 +16,7 @@ class School
   
   def roster
     roster = {}
+  end
   
   def grade=(grade)
     @grade = grade
