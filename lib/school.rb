@@ -22,11 +22,9 @@ class School
     @roster 
   end
   
-  def grade=(grade)
-    @grade = grade
+  def grade(grade)
+    @roster[grade]
   end
   
-  def grade
-    @grade
-  end
+  
 end
